@@ -2,7 +2,7 @@ import telebot
 import os
 import requests
 import random
-bot = telebot.TeleBot("7679444233:AAGaY6Lhg_R6B3ygVt41OciX1NVxmLdxNvk")
+bot = telebot.TeleBot("ТОКЕН")
 
 # Обработчик команды '/start' и '/hello'
 @bot.message_handler(commands=['start', 'hello'])
